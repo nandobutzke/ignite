@@ -73,7 +73,7 @@ function App() {
       
       <div className="w-full h-full flex items-center justify-center flex-col">
         <div className="w-full max-w-[736px]">
-          <form onSubmit={handleNewTask} className="-mt-7">
+          <form onSubmit={handleNewTask} className="-mt-7 px-4">
             <div className="flex w-full gap-2">
               <input 
                 type="text" 
@@ -96,7 +96,7 @@ function App() {
             </div>
           </form>
 
-          <div className="mt-16">
+          <div className="mt-16 px-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-blue-100">Tarefas criadas</span>
