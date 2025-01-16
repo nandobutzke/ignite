@@ -1,3 +1,0 @@
-function bodyParser(request, callback) {
-  
-}
