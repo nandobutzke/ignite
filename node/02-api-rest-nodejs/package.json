@@ -4,12 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "npx tsx watch src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest",
     "knex": "node --import tsx ./node_modules/.bin/knex"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
-    "typescript": "^5.7.3"
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
   },
   "dependencies": {
     "@fastify/cookie": "^11.0.2",
